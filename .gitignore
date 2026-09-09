@@ -1,13 +1,12 @@
-# Terraform
-**/.terraform/*
+# Terraform working files (never publish these)
+.terraform/
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
-crash.log
-crash.*.log
 *.tfvars
-*.tfvars.json
-.terraformrc
-terraform.rc
+tfplan
+*.tfplan
+crash.log
 
 # Environment variables / secrets
 .env
