@@ -1,0 +1,3 @@
+# Compliant S3 Primitive
+
+This Terraform module provisions an Amazon S3 bucket that enforces a baseline of NIST SP 800-53 controls. It implements SC-28 through server-side AES-256 encryption, AC-3 through a complete S3 public access block, CM-6 through required configuration tags and versioning, AU-3 through S3 access logging, and AU-6 by storing those audit records in a separate protected log bucket. The module also produces machine-readable Terraform evidence that can be used for later compliance verification and policy-as-code evaluation.
